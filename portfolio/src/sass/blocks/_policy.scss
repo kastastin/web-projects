@@ -1,0 +1,31 @@
+.policy {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  h1 {
+    text-align: center;
+  }
+  &__description {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  hr {
+    margin: 20px 0;
+  }
+  ol {
+    padding: 0 20px;
+    span {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    ul {
+      margin-top: 15px;
+      padding: 0 20px;
+      list-style-type: none;
+      li {
+        margin: 10px 0;
+      }
+    }
+  }
+}
